@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>APK Downloads</title>
+</head>
+<body>
+  <h1>My APK Download Site</h1>
+  <p>Click below to download the APK:</p>
+
+  <div style="margin:20px 0;">
+    <img src="https://dummyimage.com/96x96/1f2937/e5e7eb&text=A" alt="App Icon" />
+    <h2>MyApp v1.0</h2>
+    <a href="https://dummyimage.com/96x96/1f2937/e5e7eb&text=A" download>
+      Download APK
+    </a>
+  </div>
+
+  <footer>
+    <p>© <span id="year"></span> My Company</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
